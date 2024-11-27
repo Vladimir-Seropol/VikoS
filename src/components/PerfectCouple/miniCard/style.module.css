@@ -40,7 +40,7 @@ input[type="checkbox"]+span {
 
 input[type="checkbox"]:checked+span {
     border-color: #DBBBA9;
-    background: url("../../../../public//cbox.png");
+    background: url("/cbox.png");
     background-size: contain;
 
 }

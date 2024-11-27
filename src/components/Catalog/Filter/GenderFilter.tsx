@@ -75,7 +75,7 @@ const GenderFilterStyle = styled.div`
     }
 
     input:checked + label::before {
-      background: url("./public/icons/check.svg") no-repeat center;
+      background: url("/icons/check.svg") no-repeat center;
     }
   }
 `;
