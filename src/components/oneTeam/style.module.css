@@ -1,0 +1,14 @@
+.container {
+    /* width: 380px;
+    height: 480px; */
+    border-radius: 4px;
+}
+
+.img {
+    object-fit: cover;
+    width: 330px;
+    height: 400px;
+}
+.container p{
+    color: #FFFFFF;
+}

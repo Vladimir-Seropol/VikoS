@@ -1,0 +1,33 @@
+
+.catalogBlock {
+    margin-bottom: 60px;
+    padding-top: 60px;
+    position: relative;
+  }
+  .container{
+    margin: 0 auto;
+    max-width: 1180px;
+  }
+    
+  .content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: #444B58;
+    font-family: "IntroBold", sans-serif;
+  }
+  
+   @media (max-width: 610px) {
+    .content{
+        flex-direction: column;
+        align-items:center ;
+    
+    }
+    .container{
+        text-align: center;
+    }
+}
