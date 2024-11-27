@@ -28,10 +28,10 @@ const CatalogCard: FC<IProps> = ({ item }) => {
     <CatalogCardStyle>
       <div className="options">
         <button className="btn" onClick={handleOpenModal}>
-          <img src="./public/sneaker.png" alt="sneaker" />
+          <img src="/sneaker.png" alt="sneaker" />
         </button>
         <button className="add" onClick={() => dispatch(postBasket(item))}>
-          <img src="./public/basket.png" alt="add to basket" />
+          <img src="/basket.png" alt="add to basket" />
         </button>
       </div>
       <picture>
